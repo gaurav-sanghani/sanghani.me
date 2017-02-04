@@ -1,0 +1,75 @@
+html {
+    font-size: 17px;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #5B8F8A;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.linkify {
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 4rem;
+}
+
+.avatar > img {
+    border-radius: 100px;
+}
+
+.about {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.about > .name {
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 1.75rem;
+}
+
+.about > .blurb {
+    font-size: .8rem;
+}
+
+.social {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.social > a {
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 595px) {
+    body {
+        text-align: initial;
+    }
+
+    .content {
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .avatar {
+        margin-right: 1rem;
+        float: left;
+    }
+
+    .about {
+        float: left;
+        margin: 0;
+    }
+
+    .about > .name {
+        margin-top: 0;
+    }
+}
